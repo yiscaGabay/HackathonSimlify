@@ -12,10 +12,12 @@ function App() {
     setGoOn(!goOn);
   }
 
-  return goOn ? (<div className='home'>
-    <button onClick={handleClick}>GET STARTED</button>
-  </div>)
-    : (<div><Home /></div>);
+  // return goOn ? (<div className='home'>
+  //   <button onClick={handleClick}>GET STARTED</button>
+  // </div>)
+  //   : (<div><Home /></div>);
+
+  return <Home />;
     
 
   {/* <textarea id='srcText' placeholder='הכנס את הטקסט' onChange={handleChange}></textarea>
